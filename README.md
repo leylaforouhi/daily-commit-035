@@ -1,2 +1,11 @@
-# daily-commit-035
-My thirty-fifth daily GitHub activity repository
+import time
+
+def countdown(seconds):
+    while seconds > 0:
+        print(f"Time left: {seconds} seconds")
+        time.sleep(1)
+        seconds -= 1
+    print("⏰ Time’s up!")
+
+if __name__ == "__main__":
+    countdown(5)
